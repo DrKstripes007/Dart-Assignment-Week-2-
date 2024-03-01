@@ -1,0 +1,35 @@
+void main() {
+  // Example of int data type
+  int age = 25;
+
+  // Example of double data type
+  double height = 5.11;
+
+  // Example of String data type
+  String name = 'John Doe';
+
+  // Example of List data type
+  List<String> fruits = ['apple', 'banana', 'orange'];
+
+  // Example of Map data type
+  Map<String, dynamic> person = {
+    'name': 'Alice',
+    'age': 30,
+    'isMarried': true,
+  };
+
+  // Printing values
+  print('Age: $age');
+  print('Height: $height');
+  print('Name: $name');
+  print('Fruits: $fruits');
+  print('Person: $person');
+
+  // Accessing elements in the list
+  print('First fruit: ${fruits[0]}');
+
+  // Accessing values in the map
+  print('Person name: ${person['name']}');
+  print('Person age: ${person['age']}');
+  print('Is married? ${person['isMarried']}');
+}
